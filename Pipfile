@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+adafruit-blinka = "*"
+numpy = "*"
+adafruit-circuitpython-busdevice = "*"
+adafruit-circuitpython-register = "*"
+adafruit-circuitpython-pca9685 = "*"
+adafruit-circuitpython-motor = "*"
+install = "*"
+opencv-contrib-python = "*"
+scipy = "*"
+matplotlib = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
